@@ -11,7 +11,7 @@ class Solution:
             return True
         elif word.islower():
             return True
-        elif word.capitalize() == word:
+        elif word.istitle():
             return True
         else:
             return False
